@@ -124,17 +124,7 @@ const Analytics = () => {
                             <Typography variant="h6" fontWeight="bold" align="center" gutterBottom>Issues by Priority</Typography>
                             <Box sx={{ height: 300 }}>
                                 <ResponsiveContainer width="100%" height="100%">
-                                    <BarChart data={priorityData}>
-                                        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
-                                        <XAxis dataKey="name" stroke="#888" />
-                                        <YAxis stroke="#888" allowDecimals={false} />
-                                        <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(255,255,255,0.05)' }} />
-                                        <Bar dataKey="value" fill="#D90429" radius={[4, 4, 0, 0]} />
-                                    </BarChart>
-                                </ResponsiveContainer>
-                            </Box>
-                        </CardContent>
-                    </Card>
+                
                 </Grid>
             </Grid>
         </Container>

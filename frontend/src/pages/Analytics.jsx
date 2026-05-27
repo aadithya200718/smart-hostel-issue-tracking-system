@@ -122,13 +122,4 @@ const Analytics = () => {
                     <Card>
                         <CardContent>
                             <Typography variant="h6" fontWeight="bold" align="center" gutterBottom>Issues by Priority</Typography>
-                            <Box sx={{ height: 300 }}>
-                                <ResponsiveContainer width="100%" height="100%">
-                
-                </Grid>
-            </Grid>
-        </Container>
-    );
-};
-
-export default Analytics;
+       

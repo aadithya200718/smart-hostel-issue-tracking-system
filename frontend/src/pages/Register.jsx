@@ -156,7 +156,3 @@ const Register = () => {
                                 {loading ? 'Creating Account...' : 'Register'}
                             </Button>
 
-    
-};
-
-export default Register;

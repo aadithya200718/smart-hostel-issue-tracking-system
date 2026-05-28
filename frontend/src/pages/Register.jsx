@@ -156,20 +156,7 @@ const Register = () => {
                                 {loading ? 'Creating Account...' : 'Register'}
                             </Button>
 
-                            <Box sx={{ textAlign: 'center', mt: 2 }}>
-                                <Typography variant="body2" color="text.secondary">
-                                    Already have an account?{' '}
-                                    <Link to="/login" style={{ color: '#D90429', textDecoration: 'none', fontWeight: 'bold' }}>
-                                        Sign In
-                                    </Link>
-                                </Typography>
-                            </Box>
-                        </Box>
-                    </Paper>
-                </Fade>
-            </Container>
-        </Box>
-    );
+    
 };
 
 export default Register;

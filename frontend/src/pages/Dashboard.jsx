@@ -136,23 +136,4 @@ const Dashboard = () => {
                             title="Staff Tasks"
                             desc="Manage your assigned maintenance work."
                             icon={<List sx={{ fontSize: 40 }} />}
-                        />
-                    </Grid>
-                )}
-
-                {user?.role === 'admin' && (
-                    <Grid item xs={12} sm={6} md={4}>
-                        <ModuleCard
-                            to="/analytics"
-                            title="Analytics"
-                            desc="View system statistics and reports."
-                            icon={<BarChart sx={{ fontSize: 40 }} />}
-                        />
-                    </Grid>
-                )}
-            </Grid>
-        </Container>
-    );
-};
-
-export default Dashboard;
+    

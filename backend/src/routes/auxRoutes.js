@@ -16,7 +16,3 @@ router.route('/announcements')
 router.route('/lost-found')
     .get(auxController.getLostItems)
     .post(upload.single('image'), auxController.reportLostItem);
-
-router.patch('/lost-found/:id/claim', auxController.markItemClaimed);
-
-module.exports = router;
